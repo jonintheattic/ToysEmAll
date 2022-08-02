@@ -1,0 +1,498 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: grey;
+}
+
+/************HEADER************/
+
+.header-container{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #000;
+    height: 10;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-secciones{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item{
+    text-decoration: none;
+    color: #fff;
+}
+
+.titulo{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulo-pagina{
+    font-family: 'Ultra', serif;
+    font-size: 5rem;
+    margin-top: 2px;
+}
+
+.titulo-pagina span{
+    color: #B70E21;
+}
+
+.subtitulo-pagina{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 5rem;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 30%;
+}
+
+.list{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+nav ul{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.sesion{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background-color: #000;
+    justify-content: end;
+    align-items: start;
+    padding-top: 3%;
+    padding-right: 1%;
+}
+
+.login{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 2rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login span{
+    color: #B70E21;
+}
+
+/************SECCION SHOP************/
+
+.seccion-titulo{
+    font-family: 'Ultra', serif;
+    font-size: 4rem;    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.producto-tarjeta{
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    margin-bottom: 45px;
+    border: 5px ridge #000;
+    border-radius: 10px;    
+    background-color: #fff;   
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(255,255,255, 3);
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.producto-nombre{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #fff;    ;
+}
+
+.producto-descripcion{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.producto-imagen{    
+    max-width: 100%;        
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #000;
+    border-radius: 50px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 25px;
+    color: #fff;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.productos-destacados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.producto-titulo{
+    margin-bottom: 3rem;
+}
+
+/************SECCION NOTICIAS************/
+
+.noticias{
+    display: flex;
+    flex-direction: column;
+    align-items: content;
+    font-family: 'Ultra', serif;
+    font-size: 5rem;    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.noticias-tarjeta{
+    border: 5px ridge #000;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2rem;
+}
+
+.noticias-titulo{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.noticias-imagen{
+    width: 70%;
+    height: 50%;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.noticias-texto-imagen{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 25%;
+    background-color: #fff;  
+    font-weight: bold;  
+}
+
+.noticias-texto{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 40%;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.video-tarjeta{     
+    display: flex;
+    flex-direction: column;
+    border: 5px ridge #000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+.video-titulo{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background-color: #fff;
+    text-align: center;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    min-width: 10%;
+    max-height: 100%;
+    min-height: 10%;
+    width: 70%;
+    height: 5.5em;
+}
+/************FOOTER************/
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: #000;
+    width: 100%;
+}
+
+.footer-copyright{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 2.5rem; 
+    margin-left: 1%;
+}
+
+.footer-redes{
+    color: white;
+    background-color: black;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 2.5rem;
+    background-color: black;
+    margin-right: 1%;
+}
+/************SHOP************/
+.shop-container{
+    width: 80%;    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+
+/************FORMULARIO************/
+body {       
+    line-height: 1.6; 
+    font-family: 'Stint Ultra Condensed', cursive;   
+    font-size: 1.5em; 
+}
+
+.container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.titulo-formulario {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+.contacto-form-contenedor span,
+.titulo-formulario span {
+    color: #B70E21;
+}
+
+.formulario-contenedor {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 5);
+}
+
+.formulario-contenedor > * {
+    padding: 1em;
+}
+
+.contacto-form-contenedor {
+    background: #222222;
+    color: #fff;
+    font-family: 'Stint Ultra Condensed', cursive;   
+    font-size: 1.5em;
+}
+
+.contacto-form-contenedor form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+.contacto-form-contenedor form label {
+    display: block;
+}
+
+.contacto-form-contenedor form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contacto-form-contenedor form .mensaje,
+.contacto-form-contenedor form .btn {
+    grid-column: 1 / 3;
+}
+
+.contacto-form-contenedor form button,
+.contacto-form-contenedor form input,
+.contacto-form-contenedor form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.contacto-form-contenedor form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contacto-form-contenedor form button:hover,
+.contacto-form-contenedor form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contacto-info-contenedor {
+    color: #fff;
+    font-family: 'Stint Ultra Condensed', cursive;   
+    font-size: 1.5em;
+    background-color: black;
+}
+
+.contacto-info-contenedor h4, 
+.contacto-info-contenedor ul, 
+.contacto-info-contenedor p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contacto-info-contenedor h4{
+    color: #B70E21;
+}
+
+.frase{
+    color: #B70E21;
+}
+
+/************MEDIA QUERIES************/
+
+@media(max-width: 768px) {        
+    .titulo-pagina{
+        font-size: 4rem;
+    }
+    .subtitulo-pagina{
+        font-size: 3rem;
+    }
+    .login{
+        margin-left: 15px;
+        margin-right: 5px;
+        padding: 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .navbar-item{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .shop-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-tarjeta{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video-titulo{
+        font-size: 3rem;
+    }
+    .video{
+        width: 100%;
+    }
+    .noticias-tarjeta{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .seccion-titulo{
+        font-size: 2.5rem;
+    }
+
+    .footer-copyright, .footer-redes{
+        font-size: 2rem;      
+        margin: 0 10px;
+    }
+
+    .footer-redes{
+        text-align: center;
+    }
+
+}
+
+@media(min-width: 768){
+    body {
+        padding: 0 4em;
+    }
+
+    .formulario-contenedor {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .formulario-contenedor > * {
+        padding: 2em;
+    }
+    .contacto-info-contenedor h4,
+    .contacto-info-contenedor ul,
+    .contacto-info-contenedor p {
+        text-align: left;
+    }  
+}
