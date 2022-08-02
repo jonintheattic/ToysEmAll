@@ -15,6 +15,7 @@ body{
     font-weight: bold;
     background-color: #000;
     height: 10;
+
     display: flex;
     justify-content: space-between;    
 }
@@ -45,8 +46,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: swing;
+    animation-duration: 2s;
 }
 
+.banner{
+    animation: backInLeft;
+    animation-duration: 2s;
+}
 
 .titulo-pagina{
     font-family: 'Ultra', serif;
@@ -123,6 +130,9 @@ nav ul{
     text-align: center;
 }
 
+.seccion-titulo:hover{
+    background-image: linear-gradient(to top, grey, #B70E21, grey);
+}
 
 .producto-tarjeta{
     max-width: 500px;
@@ -138,6 +148,7 @@ nav ul{
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
+    cursor: pointer;    
 }
 
 .producto-nombre{
@@ -157,6 +168,10 @@ nav ul{
     max-width: 100%;        
 }
 
+.producto-tarjeta:hover{
+    transform: scale(1.1);
+}
+
 .boton {
     display: inline-block;
     padding: 12px 25px;
@@ -167,6 +182,13 @@ nav ul{
     color: #fff;   
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: crosshair;
+}
+
+.boton:hover{
+    background-color: #B70E21;
+    font-size: 30px;
+    transition: all .3s;
 }
 
 .productos-destacados{
@@ -305,6 +327,15 @@ nav ul{
     padding-bottom: 10%;
 }
 
+.shop-container div{
+    animation: backInRight;
+    animation-duration: 1s;
+}
+
+.productos-destacados{
+    animation: backInRight;
+    animation-duration: 1s;
+}
 
 /************FORMULARIO************/
 body {       
@@ -401,7 +432,7 @@ ul {
     color: #fff;
     font-family: 'Stint Ultra Condensed', cursive;   
     font-size: 1.5em;
-    background-color: black;
+    background-image: linear-gradient(to bottom, black, grey, black);
 }
 
 .contacto-info-contenedor h4, 
