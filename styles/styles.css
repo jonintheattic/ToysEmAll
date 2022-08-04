@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-body{
+#cuerpo{
     background-color: grey;
 }
 
@@ -50,11 +50,6 @@ body{
     animation-duration: 2s;
 }
 
-.banner{
-    animation: backInLeft;
-    animation-duration: 2s;
-}
-
 .titulo-pagina{
     font-family: 'Ultra', serif;
     font-size: 5rem;
@@ -68,15 +63,6 @@ body{
 .subtitulo-pagina{
     font-family: 'Stint Ultra Condensed', cursive;
     font-size: 5rem;
-}
-
-.banner{
-    display: flex;
-    justify-content: center;
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    height: 30%;
 }
 
 .list{
