@@ -44,8 +44,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: swing;
-  animation-duration: 2s;
+  -webkit-animation: swing;
+          animation: swing;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .titulo-pagina {
@@ -130,7 +132,8 @@ nav ul {
   box-shadow: 0 0 20px 0 rgb(255, 255, 255);
   overflow: hidden;
   transition: 0.5s;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   cursor: pointer;
 }
 
@@ -312,13 +315,17 @@ nav ul {
 }
 
 .shop-container div {
-  animation: backInRight;
-  animation-duration: 1s;
+  -webkit-animation: backInRight;
+          animation: backInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .productos-destacados {
-  animation: backInRight;
-  animation-duration: 1s;
+  -webkit-animation: backInRight;
+          animation: backInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 /************FORMULARIO************/
@@ -503,6 +510,4 @@ ul {
 .contacto-info-contenedor p {
     text-align: left;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=estilos.css.map */
