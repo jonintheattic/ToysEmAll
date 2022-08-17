@@ -1,3 +1,26 @@
-Se aplico SEO en cada HTML, con un meta description diferente en cada HTML tambien.
-En este caso, se utilizaron kaywords relacionadas a la comercializacion dentro del shop, kaywords relacionados a noticias u novedades en el HTML de MCU y DCEU, y se aplico lo mismo en el HTML donde esta el formulario de contacto.
-Por ultimo, dentro del index se intento sumar la mayor cantidad de kaywords relacionadas ya que condensa toda la informacion de la pagina en un solo HTML.
+Se aplico SEO en cada HTML, con un meta description diferente en cada HTML tambien como se solicito para la entrega.
+
+En el index se utilizaron las siguientes keywords: 
+
+toys em all, figuras, accion, sideshow, hottoys, prime1, marvel, dc, batman, superman, wonderwoman, ironman, spiderman, starwars, stormtrooper, comprar, envio, noticias, novedades, toysemall
+
+La idea de agrupar tantas palabras claves es porque el index condensa toda la informacion principal, tanto el shop, como la seccion de noticias.
+
+
+En el HTML DCEU se utilizaron las siguientes keywords:
+
+toys em all, toysemall, novedades, noticias, dc, dceu, batman, superman, wonder woman, justice league, liga de la justicia, snyder, trailer, estreno
+
+Se aplico los nombres de los personajes principales del universo DC, al igual que palabras claves como "estreno" o "trailer" para hacer referencia a los proximos estrenos y noticias.
+
+En el HTML de MCU se utilizaron las siguientes keywords:
+
+toys em all, marvel, novedades, noticias, mcu, toysemall, spiderman, ironman, thor, avengers, trailer, estreno
+
+Se aplico nombres de los personajes principales del universo de Marvel, al igual que palabras claves como "estreno" o "trailer" para hacer referencia a los proximos estrenos y noticias.
+
+En el HTML de contacto se utilizaron las siguientes keywords:
+
+toys em all, consultas, preguntas, marvel, dc, compra, devolucion, dudas, toysemall
+
+Se aplico las palabras "devolucion" o "dudas" para que puedan aprovechar el formulario de consultas.
