@@ -1,0 +1,3 @@
+Se aplico SEO en cada HTML, con un meta description diferente en cada HTML tambien.
+En este caso, se utilizaron kaywords relacionadas a la comercializacion dentro del shop, kaywords relacionados a noticias u novedades en el HTML de MCU y DCEU, y se aplico lo mismo en el HTML donde esta el formulario de contacto.
+Por ultimo, dentro del index se intento sumar la mayor cantidad de kaywords relacionadas ya que condensa toda la informacion de la pagina en un solo HTML.
