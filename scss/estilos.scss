@@ -10,6 +10,19 @@
     background-color: $fondo-pagina;
 }
 
+/*MIXIN*/
+@mixin color-titulo(){
+    color: #000;    
+}
+
+@mixin color-nav(){
+    color: #fff;
+}
+
+@mixin form-titulo(){
+    font-family: $ultra1;
+}
+
 /************HEADER************/
 
 .header-container{
@@ -30,14 +43,14 @@
 }
 
 .navbar-secciones{
-    color: $blanco;
+    @include color-nav();
     list-style: none;
     text-decoration: none;
 }
 
 .item{
     text-decoration: none;
-    color: $blanco;
+    @include color-nav();
 }
 
 .titulo{
@@ -103,19 +116,31 @@ nav ul{
     text-decoration: none;
 }
 
-.login span{
+.login-rojo{
     color: $rojo;
 }
 
 /************SECCION SHOP************/
 
+/*MAPS*/
+
+$estilos-titulos: (
+    eFuente: $ultra1,
+    tFuente: 4rem,
+    arriba: 1rem,
+    abajo: 1rem,
+    tMayus: $mayusculas,
+    posiciontexto: center
+);
+
 .seccion-titulo{
-    font-family: $ultra1;
-    font-size: 4rem;    
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-transform: $mayusculas;
-    text-align: center;
+    font-family: map-get($map: $estilos-titulos, $key: eFuente);
+    font-size: map-get($map: $estilos-titulos, $key: tFuente);
+    margin-top: map-get($map: $estilos-titulos, $key: arriba);
+    margin-bottom: map-get($map: $estilos-titulos, $key: abajo);
+    text-transform: map-get($map: $estilos-titulos, $key: tMayus);
+    text-align: map-get($map: $estilos-titulos, $key: posiciontexto);  
+    @include color-titulo(); 
 }
 
 .seccion-titulo:hover{
@@ -348,11 +373,14 @@ ul {
     text-align: center;
     font-size: $tres;
     margin-bottom: 1rem;
+    @include form-titulo();
 }
+
+/*EXTEND*/
 
 .contacto-form-contenedor span,
 .titulo-formulario span {
-    color: $rojo;
+    @extend .login-rojo
 }
 
 .formulario-contenedor {
@@ -365,7 +393,7 @@ ul {
 
 .contacto-form-contenedor {
     background: #222222;
-    color: $blanco;
+    @include color-nav();
     font-family: $ultra;   
     font-size: 1.5em;
 }
@@ -431,11 +459,11 @@ ul {
 }
 
 .contacto-info-contenedor h4{
-    color: $rojo;
+    @extend .login-rojo
 }
 
 .frase{
-    color: $rojo;
+    @extend .login-rojo
 }
 
 /************MEDIA QUERIES************/

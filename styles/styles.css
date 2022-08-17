@@ -7,6 +7,7 @@
   background-color: grey;
 }
 
+/*MIXIN*/
 /************HEADER************/
 .header-container {
   font-family: sans-serif;
@@ -26,14 +27,14 @@
 }
 
 .navbar-secciones {
-  color: white;
+  color: #fff;
   list-style: none;
   text-decoration: none;
 }
 
 .item {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 
 .titulo {
@@ -99,11 +100,13 @@ nav ul {
   text-decoration: none;
 }
 
-.login span {
+.login-rojo, .frase, .contacto-info-contenedor h4, .contacto-form-contenedor span,
+.titulo-formulario span {
   color: #B70E21;
 }
 
 /************SECCION SHOP************/
+/*MAPS*/
 .seccion-titulo {
   font-family: "Ultra", serif;
   font-size: 4rem;
@@ -111,6 +114,7 @@ nav ul {
   margin-bottom: 1rem;
   text-transform: uppercase;
   text-align: center;
+  color: #000;
 }
 
 .seccion-titulo:hover {
@@ -344,13 +348,10 @@ ul {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-family: "Ultra", serif;
 }
 
-.contacto-form-contenedor span,
-.titulo-formulario span {
-  color: #B70E21;
-}
-
+/*EXTEND*/
 .formulario-contenedor {
   box-shadow: 0 0 20px 0 rgb(255, 255, 255);
 }
@@ -361,7 +362,7 @@ ul {
 
 .contacto-form-contenedor {
   background: #222222;
-  color: white;
+  color: #fff;
   font-family: "Stint Ultra Condensed", cursive;
   font-size: 1.5em;
 }
@@ -424,14 +425,6 @@ ul {
 .contacto-info-contenedor p {
   text-align: center;
   margin: 0 0 1rem 0;
-}
-
-.contacto-info-contenedor h4 {
-  color: #B70E21;
-}
-
-.frase {
-  color: #B70E21;
 }
 
 /************MEDIA QUERIES************/
